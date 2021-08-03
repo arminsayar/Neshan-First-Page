@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+:root {
+    --button-text-color: #FFFFFF;
+    --dark-gray: #404040;
+    --button-blue-color: rgb(57, 121, 217);
+}
