@@ -4,10 +4,240 @@
 body {
     margin: 0;
     padding: 0;
-    
+    width: 100vw;
+    height: 100vh;
+    background-color: #F8F9FD;
+    overflow-x: hidden;
+}
+h1,
+h2,
+p {
+    margin: 0;
 }
 :root {
     --button-text-color: #FFFFFF;
     --dark-gray: #404040;
     --button-blue-color: rgb(57, 121, 217);
+    --h1-sec-1: #262626;
+}
+header{
+    position: fixed;
+    height: 84px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+nav{
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFFFFF;
+    height: 84px;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.main-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+.button{
+    width: 14%;
+}
+.other-content{
+    display: flex;
+    width: 86%;
+}
+.items{
+    width: 70%;
+}
+.logo-item{
+    width: 30%;
+    position: relative;
+}
+.logo-item-img{
+    display: flex;
+    height: 100%;
+    right: 0px;
+    position: absolute;
+    margin-right: 20px;
+}
+.logo-item-img img{
+    width: 110px;
+}
+.items{ 
+    align-items: center;
+    align-content: center;
+
+}
+.items ul{
+    display: flex;  
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 0;
+}
+.items li{
+    padding: 15px;
+    list-style: none;
+}
+.items li a{
+    text-decoration: none;
+    color: #464646;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 20px;
+    font-family: Vazir FD !important;
+}
+.items li a:hover{
+    color: #3979D9;
+
+}
+.install-button {
+    display: inline-block;
+    background-color: #3979D9 !important;
+    border-radius: 100px;
+    font-size: 14px;
+    padding: 10px 13px 0px 21px;
+    transition: all ease .3s;
+    margin: 22px 5px 15px 25px;
+}
+.install-button:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 3px 25px 0px rgb(0 0 0 / 9%);
+}
+.span-button{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    line-height: 14px;
+    font-weight: 500;
+    color:  #FFFFFF;
+    cursor: pointer;
+}
+.download{
+    font-size: 24px;
+    margin-top: -10px;
+    margin-left: 5px;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+}
+.text{
+    font-family: "Vazir FD";
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 14px;
+    height: 24.29px;
+}
+
+
+
+
+
+
+
+#sec1-back-div {
+    background-image: url(images/tehran.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: calc(100vh - 85px);
+    background-repeat: no-repeat;
+}
+
+#sec1-main-div {}
+
+#sec1-h1 {
+    color: var(--h1-sec-1);
+    font-family: peyda bl;
+    font-size: 44px;
+    line-height: 48px;
+    font-weight: 900;
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 312px;
+    padding: 9% 5% 0 0;
+}
+
+#h1-div1 {
+    float: right;
+    margin-left: 5px;
+}
+
+#h1-div2 {
+    float: right;
+}
+
+#h1-div3 {
+    float: right;
+    padding-top: 1%;
+    padding-left: 50%;
+}
+
+#sec1-div2 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 488px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#sec1-h2 {
+    font-family: peyda eb;
+    color: #000000;
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+#sec1-p {
+    font-family: Vazir FD;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 550px;
+    margin-top: 20px;
+}
+
+#sec1-texts-div {
+    height: 472px;
+    margin-right: 80px;
+}
+
+.button-style {
+    background-color: var(--button-blue-color);
+    border: hidden;
+    width: 170px;
+    height: 46px;
+    border-radius: 24px 24px 24px 24px;
+    font-size: 16px;
+    position: relative;
+    margin-top: 40px;
+    transition: all .3s ease-out;
+    cursor: pointer;
+}
+
+.button-style:hover {
+    transform: translateY(-5px);
+}
+
+.button-style>span {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    color: #FFFFFF;
+    font-family: Vazir FB;
+}
+
+.svg1-style {
+    margin-top: 5px;
+    position: absolute;
+    top: 5px;
+    right: 30px;
 }
