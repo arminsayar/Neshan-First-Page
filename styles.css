@@ -5,6 +5,7 @@
 body {
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     width: 100vw;
     height: 100vh;
     background-color: #F8F9FD;
@@ -17,10 +18,16 @@ p {
     margin: 0;
 }
 
+=======
+
+}
+
+>>>>>>> armin-37-Section-3
 :root {
     --button-text-color: #FFFFFF;
     --dark-gray: #404040;
     --button-blue-color: rgb(57, 121, 217);
+<<<<<<< HEAD
     --h1-sec-1: #262626;
 }
 
@@ -348,4 +355,130 @@ nav {
     font-size: 16px;
     font-family: Vazir FD !important;
     line-height: 29.71px;
+=======
+}
+
+#sec3-p1-div {
+    max-width: 1092px;
+    margin: 0 auto;
+    height: 207px;
+    margin-top: 168px;
+
+}
+
+#sec3-p1-h2 {
+    position: absolute;
+    right: 55px;
+    top: 35px;
+
+}
+
+#sec3-p1-box {
+    height: 100%;
+    background-color: #404040;
+    border-radius: 16px 16px 16px 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+    position: relative;
+}
+
+#sec3-p1-search {
+    display: flex;
+    margin-top: 50px;
+    position: absolute;
+    top: 50px;
+    right: 55px;
+}
+
+#sec3-p1-search>svg {
+    width: 48px;
+    height: 48px;
+    transition: all .3s;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+
+#sec3-p1-search>svg:nth-child(1) {
+    margin-left: 55px;
+}
+
+#sec3-p1-search>svg:hover {
+    background-color: #3979D9;
+    border-radius: 50%;
+}
+
+#sec3-p1-search>div {
+    height: 48px;
+    width: 676px;
+    border-radius: 100px;
+    border: 0;
+    background-color: #FFF;
+    color: #BBBBBB;
+    display: flex;
+    position: relative;
+    margin-left: 45px;
+}
+
+#search-ico::before {
+    content: "\f002";
+    width: 17px;
+    height: 17px;
+    color: #404040;
+}
+
+#search-ico {
+    width: 17px;
+    height: 17px;
+    margin-top: 15px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+#sec3-p1-search>div>p {
+    position: absolute;
+    right: 20px;
+}
+
+#sec3-p2-div {
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 178px;
+    padding: 80px 0;
+    display: flex;
+}
+
+#sec3-p2-box1 {
+    background-color: #F2F4FB;
+    height: 178px;
+    width: 447px;
+    padding: 0 20px;
+    position: relative;
+}
+
+#sec3-p2-box2 {
+    background-color: #F2F4FB;
+    height: 178px;
+    width: 586px;
+    padding: 0 20px;
+    position: relative;
+    margin-left: 100px;
+}
+
+.sec3-p2-btn {
+    position: absolute;
+    right: 30px;
+    bottom: 50px;
+}
+
+.sec3-p2-h2 {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.sec3-p2-img {
+    position: absolute;
+    top: 15px;
+    left: 50px;
+>>>>>>> armin-37-Section-3
 }
