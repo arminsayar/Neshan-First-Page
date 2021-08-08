@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 
-body {
+body,
+html {
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -689,4 +690,53 @@ footer {
 
 #fl-s:hover {
     color: #3a3a3a;
+}
+
+/* responsive for 1024 */
+
+@media (max-width: 1024px) {
+    .items {
+        display: none;
+    }
+
+    .logo-item {
+        width: 100vw;
+        height: 100%;
+    }
+
+    .logo-item-img {
+        width: 110px;
+        margin-right: -80px;
+    }
+
+    .logo-item-img img {
+        width: 100%;
+    }
+
+    .button {
+        display: none;
+    }
+
+    #sec1-h1 {
+        padding-top: 18%;
+    }
+
+    nav,
+    header {
+        width: 1024px;
+    }
+    #sec1-texts-div {
+        margin-left: 20px;
+    }
+    #sec1-div2-img {
+        margin-right: 20px;
+    }
+    #sec1-texts-div {
+        margin-right: 30px;
+    }
+    #sec1-p {
+        max-width: 492px;
+        height: 75px;
+    }
+
 }
