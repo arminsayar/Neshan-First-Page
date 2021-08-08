@@ -2,8 +2,7 @@
     box-sizing: border-box;
 }
 
-body,
-html {
+body {
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -32,6 +31,11 @@ header {
     width: 100%;
     background-color: #FFFFFF;
     z-index: 10;
+}
+
+.fa-bars:before {
+    content: "\f0c9";
+    display: none;
 }
 
 nav {
@@ -79,6 +83,7 @@ nav {
     right: 0px;
     position: absolute;
     margin-right: 20px;
+    width: 115px;
 }
 
 .logo-item-img img {
@@ -93,9 +98,8 @@ nav {
 
 .items ul {
     display: flex;
-    margin-top: 10px;
-    margin-left: 15px;
-    padding: 0;
+    align-items: center;
+    margin-left: -30px;
 }
 
 .items li {
@@ -124,7 +128,7 @@ nav {
     font-size: 14px;
     padding: 10px 13px 0px 21px;
     transition: all ease .3s;
-    margin: 22px 5px 15px 25px;
+    margin: 25px 5px 0 25px;
 }
 
 .install-button:hover {
@@ -560,9 +564,20 @@ footer {
 #footer-sec2-main {
     display: flex;
     justify-content: center;
+    flex-direction: row-reverse;
     height: 285px;
     padding-top: 50px;
     padding-bottom: 40px;
+}
+
+#fl-d {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 400px;
+
 }
 
 #f-sec2-p1 {
@@ -572,6 +587,10 @@ footer {
     width: 263px;
     display: flex;
     justify-content: center;
+    margin-top: -165px;
+    margin-left: 370px;
+    border-radius: 16px;
+
 }
 
 #f-sec2-p1>img {
@@ -675,11 +694,13 @@ footer {
     display: flex;
     justify-content: center;
     margin-bottom: 1.75em;
+    margin-top: 80px;
     line-height: 26px;
     height: 70px;
     font-size: 14px;
     font-family: Vazir FB;
     font-weight: 500;
+    height: 50px;
 }
 
 #fl-s {
@@ -724,19 +745,150 @@ footer {
     nav,
     header {
         width: 1024px;
+        height: 97px;
     }
+
     #sec1-texts-div {
         margin-left: 20px;
     }
+
     #sec1-div2-img {
         margin-right: 20px;
     }
+
     #sec1-texts-div {
         margin-right: 30px;
     }
+
     #sec1-p {
         max-width: 492px;
         height: 75px;
     }
 
+    .part-one-img {
+        background-size: 460px;
+    }
+
+    .part-two-img {
+        background-size: 460px;
+        margin-left: 0;
+    }
+
+    .part-three-img {
+        background-size: 460px;
+    }
+
+    .images {
+        margin-left: 13px;
+        width: 460px;
+        height: 460px;
+
+    }
+
+    .section-two {
+        height: 1420px;
+
+    }
+
+    #sec3-p1-div {
+        max-width: 1000px;
+        margin-top: 120px;
+    }
+
+    #sec3-s {
+        max-width: 542px;
+    }
+
+    #sec3-p1-search>svg {
+        margin-left: 35px;
+    }
+
+    #sec3-p2-box1 {
+        width: 487px;
+        height: 208px;
+    }
+
+    #sec3-p2-box2 {
+        width: 536px;
+        height: 208px;
+        margin-left: 30px;
+    }
+
+    .sec3-p2-btn {
+        bottom: 55px;
+    }
+
+    .sec3-p2-h2 {
+        top: 55px;
+    }
+
+    #f-sec2-p1 {
+        margin-top: 300px;
+        min-width: 624px;
+        max-width: 624px;
+        height: 386px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    #f-sec2-p1>img {
+        width: 262px;
+        height: 232px;
+        top: 0;
+    }
+
+    #f-sec2-p1>p {
+        margin-top: 230px;
+        font-size: 26px;
+    }
+
+    #fl-d {
+        max-width: 624px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    #fl {
+        margin-top: 60px;
+    }
+
+    #fl>p {
+        font-size: 16px;
+    }
+
+    .fa-bars:before {
+        display: inline-block;
+    }
+
+    .fa,
+    .fas {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 30px;
+        width: 26px;
+        max-height: 30px;
+        margin: auto 0;
+        margin-left: 40px;
+        color: #404040;
+
+    }
+
+    .logo-item-img {
+        width: 141px;
+        max-height: 100px;
+        margin: auto 0;
+
+    }
+
+    .image,
+    .text {
+        width: 100%;
+    }
+
+    .text-one {
+        margin-right:-60px; 
+        margin-top: 70px;
+    }
+    
+    
 }
