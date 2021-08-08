@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -9,82 +10,98 @@ body {
     background-color: #F8F9FD;
     overflow-x: hidden;
 }
+
 h1,
 h2,
 p {
     margin: 0;
 }
+
 :root {
     --button-text-color: #FFFFFF;
     --dark-gray: #404040;
     --button-blue-color: rgb(57, 121, 217);
     --h1-sec-1: #262626;
 }
-header{
+
+header {
     position: fixed;
     height: 84px;
     width: 100%;
     background-color: #FFFFFF;
     z-index: 10;
 }
-nav{
+
+nav {
     max-width: 1140px;
     margin-right: auto;
     margin-left: auto;
     background-color: #FFFFFF;
     height: 84px;
 }
-.content{
+
+.content {
     width: 100%;
     height: 100%;
     display: flex;
 }
-.main-content{
+
+.main-content {
     width: 100%;
     height: 100%;
     display: flex;
     position: relative;
 }
-.button{
+
+.button {
     width: 14%;
 }
-.other-content{
+
+.other-content {
     display: flex;
     width: 86%;
 }
-.items{
+
+.items {
     width: 70%;
 }
-.logo-item{
+
+.logo-item {
     width: 30%;
     position: relative;
 }
-.logo-item-img{
+
+.logo-item-img {
     display: flex;
     height: 100%;
     right: 0px;
     position: absolute;
     margin-right: 20px;
 }
-.logo-item-img img{
+
+.logo-item-img img {
     width: 110px;
 }
-.items{ 
+
+.items {
     align-items: center;
     align-content: center;
 
 }
-.items ul{
-    display: flex;  
+
+.items ul {
+    display: flex;
     margin-top: 10px;
     margin-left: 15px;
     padding: 0;
 }
-.items li{
+
+.items li {
     padding: 15px;
     list-style: none;
 }
-.items li a{
+
+.items li a {
     text-decoration: none;
     color: #464646;
     font-size: 14px;
@@ -92,10 +109,12 @@ nav{
     line-height: 20px;
     font-family: Vazir FD !important;
 }
-.items li a:hover{
+
+.items li a:hover {
     color: #3979D9;
 
 }
+
 .install-button {
     display: inline-block;
     background-color: #3979D9 !important;
@@ -105,20 +124,23 @@ nav{
     transition: all ease .3s;
     margin: 22px 5px 15px 25px;
 }
-.install-button:hover{
+
+.install-button:hover {
     transform: translateY(-5px);
     box-shadow: 0px 3px 25px 0px rgb(0 0 0 / 9%);
 }
-.span-button{
+
+.span-button {
     display: flex;
     align-items: center;
     font-size: 24px;
     line-height: 14px;
     font-weight: 500;
-    color:  #FFFFFF;
+    color: #FFFFFF;
     cursor: pointer;
 }
-.download{
+
+.download {
     font-size: 24px;
     margin-top: -10px;
     margin-left: 5px;
@@ -126,7 +148,8 @@ nav{
     height: 24px;
     width: 24px;
 }
-.text-button{
+
+.text-button {
     font-family: "Vazir FD";
     display: inline-block;
     font-size: 14px;
@@ -134,6 +157,7 @@ nav{
     line-height: 14px;
     height: 24.29px;
 }
+
 #sec1-back-div {
     background-image: url(images/tehran.jpg);
     background-size: cover;
@@ -142,6 +166,7 @@ nav{
     height: calc(100vh - 85px);
     background-repeat: no-repeat;
 }
+
 #sec1-h1 {
     color: var(--h1-sec-1);
     font-family: peyda bl;
@@ -232,35 +257,43 @@ nav{
     top: 5px;
     right: 30px;
 }
-.section-two{
+
+.section-two {
     display: flex;
     flex-direction: column;
     max-width: 1143px;
-    height:1171px ;
+    height: 1171px;
     margin-top: 60px;
     margin-right: auto;
     margin-left: auto;
     background-color: #3979D9;
     border-radius: 22px;
 }
-.section-two-box{
+
+.section-two-box {
     display: flex;
 }
-.first-part{
+
+.first-part {
     margin-top: -60px;
     margin-bottom: 50px;
 }
-.second-part{
+
+.second-part {
     height: 390.3px;
     margin-bottom: 50px;
 }
-.third-part{
+
+.third-part {
     margin-bottom: 50px;
 }
-.image,.text{
+
+.image,
+.text {
     width: 50%;
 }
-.images{
+
+.images {
     background-repeat: no-repeat;
     width: 357px;
     height: 357px;
@@ -268,39 +301,49 @@ nav{
     margin-left: 120px;
     text-align: center;
 }
-.part-one-img{
-    background-image: url(/images/image-4.png);
+
+.part-one-img {
+    background-image: url(images/image-4.png);
 }
-.part-two-img{
-    background-image: url(/images/image-5.png);
+
+.part-two-img {
+    background-image: url(images/image-5.png);
 }
-.part-three-img{
-    background-image: url(/images/image-6.png);
+
+.part-three-img {
+    background-image: url(images/image-6.png);
 }
-.images h2{
-    padding-top:300px;
+
+.images h2 {
+    padding-top: 300px;
     color: #000000;
     font-size: 22px;
     font-weight: 700;
     font-family: peyda bl !important;
     margin-left: 54px;
 }
-.text-one,.text-three,.text-two{
+
+.text-one,
+.text-three,
+.text-two {
     padding-top: 110px;
     padding-right: 92px;
     color: #FFFFFF;
     text-align: right;
 }
-.text-two{
-   padding-right: 100px;
+
+.text-two {
+    padding-right: 100px;
 }
-.text h2{
+
+.text h2 {
     font-size: 22px;
     font-weight: 800;
     font-family: peyda bl !important;
     margin-bottom: 20px;
 }
-.text p{
+
+.text p {
     color: rgba(255, 255, 255, 0.75);
     font-size: 16px;
     font-family: Vazir FD !important;
