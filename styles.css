@@ -8,7 +8,7 @@ body {
     width: 100%;
     height: 100%;
     background-color: #F8F9FD;
-    overflow: auto;
+    overflow-x: hidden;
 }
 
 h1,
@@ -906,6 +906,460 @@ footer {
         margin-right: -60px;
         margin-top: 70px;
     }
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mobile-menu {
+    background-color: #3979D9;
+    position: fixed;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    transition: left .3s ease-out;
+    overflow: hidden;
+    z-index: 50;
+}
+
+.mm-active {
+    background-color: #3979D9;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: left .3s ease-out;
+    overflow: hidden;
+    z-index: 50;
+}
+
+.mm-active>button,
+.mobile-menu>button  {
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: transparent;
+    border: none;
+    width: 24px;
+    height: 24px;
+}
+
+.mb-btn {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.mb-btns {
+    background-color: #FFFFFF;
+    border-radius: 30px 30px 30px 30px;
+    font-weight: 500;
+    fill: #3979D9;
+    color: #3979D9;
+    border: none;
+    font-family: Vazir FB;
+    font-size: 15px;
+    padding: 13px 35px;
+    line-height: 1;
+
+}
+
+.head-d {
+    position: unset;
+}
+
+.body-d {
+    position: unset;
+    overflow-y: hidden;
+}
+
+.body-a {
+    width: 100%;
+    height: 100%;
+}
+
+.mm-active>button>svg,
+.mobile-menu>button>svg {
+    width: 14px;
+    height: 14px;
+}
+
+.mm-active>button:focus,
+.mobile-menu>button:focus {
+    background-color: #3a3a3a;
+    border-color: #3a3a3a;
+}
+
+.mm-active>ul,
+.mobile-menu>ul {
+    height: 100vh;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.mobile-li {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.mobile-li>a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 20px;
+    font-family: Vazir FD;
 }
