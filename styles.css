@@ -217,9 +217,9 @@ button:hover {
     background-color: #3979d9;
     max-width: 1140px;
     padding: 0px 50px;
-    margin: 60px auto 110px auto; /* gotta change top */
     border-radius: 20px;
     color: #fff;
+     margin: 60px auto 110px auto;
 }
 .box{
     display: flex;
@@ -250,7 +250,7 @@ figcaption {
     font-size: 22px;
     font-weight: 900;
     direction: rtl;
-    transform: translate(-25px, -65px);
+    transform: translate(-23px, -65px);
 }
 .section-two img{
     border-radius: 20px;
