@@ -4,7 +4,7 @@ const fixedDiv = document.getElementById('footer-up-sec');
 
 const body = document.getElementById('body-m');
 
-// 2484
+// 2483
 
 function scrollF() {
     let y = window.scrollY;
@@ -40,5 +40,5 @@ function menuOff() {
         body.classList.toggle('body-a');
     }
     menuPage.classList.remove('mm-active');
-    
+    head.classList.remove('head-d');
 }
