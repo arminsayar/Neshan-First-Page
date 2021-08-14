@@ -217,9 +217,9 @@ button:hover {
     background-color: #3979d9;
     max-width: 1140px;
     padding: 0px 50px;
-    margin: 60px auto 110px auto; /* gotta change top */
     border-radius: 20px;
     color: #fff;
+    margin: 60px auto 110px auto; 
 }
 .box{
     display: flex;
