@@ -34,15 +34,7 @@ header {
     content: "\f0c9";
     display: none;
 }
-nav{
-    height: 84px;
-    display: flex;
-    align-items: center;
-    max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-between;
-}
+
 .nav-item {
     display: flex;
     justify-content: center;
@@ -53,6 +45,15 @@ nav{
 }
 .nav-logo {
     justify-content: flex-end;
+}
+nav{
+    height: 84px;
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
 }
 .items {
     display: flex;
