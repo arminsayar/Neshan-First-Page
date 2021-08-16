@@ -9,7 +9,7 @@ const body = document.getElementById('body-m');
 function scrollF() {
     let y = window.scrollY;
     if (y >= 2483) {
-        fixedDiv.style = "position: static; margin-top:-60px;";
+        fixedDiv.style = "position: static; margin-top:-130px;";
     } else {
         fixedDiv.style = "position: fixed;";
     }
